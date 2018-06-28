@@ -10,7 +10,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical">
 
 
@@ -20,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="下のフォームに好きな文字/数字を入れて[GENERATE]を押すと偽広告ジェネレーターに遷移します。"
+            android:text="下のフォームに好きな文字/数字を入れて[偽広告を作成]を押すと偽広告ジェネレーターに遷移します。"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -92,6 +95,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -99,19 +103,19 @@
                 android:id="@+id/reset"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@android:drawable/edit_text"
                 android:onClick="clear"
-                android:text="RESET" />
+                android:text="リセット" />
 
             <Button
                 android:id="@+id/generate"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@android:drawable/edit_text"
                 android:onClick="generate"
-                android:text="generate" />
+                android:text="偽広告を作成" />
         </LinearLayout>
 
     </LinearLayout>

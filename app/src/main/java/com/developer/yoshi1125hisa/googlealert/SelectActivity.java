@@ -47,20 +47,21 @@ public class SelectActivity extends AppCompatActivity {
         String createUrl = "http://www.nambuplace.tk/LieGoogle/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3;
 
 
-        /*
+
         //WebView
 
         //Toast.makeText(this, createUrl, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,WebActivity.class);
         intent.putExtra("URL", createUrl);
         startActivity(intent);
-        */
+
 
         //Browser
-
+/*
         Uri uri = Uri.parse(createUrl);
         Intent i = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(i);
+        */
 
     }
 
