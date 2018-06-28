@@ -1,9 +1,11 @@
 package com.developer.yoshi1125hisa.googlealert;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,11 +46,30 @@ public class SelectActivity extends AppCompatActivity {
 
         String createUrl = "http://www.nambuplace.tk/LieGoogle/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3;
 
-        Toast.makeText(this, createUrl, Toast.LENGTH_SHORT).show();
+
+        /*
+        //WebView
+
+        //Toast.makeText(this, createUrl, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,WebActivity.class);
         intent.putExtra("URL", createUrl);
         startActivity(intent);
+        */
 
+        //Browser
 
+        Uri uri = Uri.parse(createUrl);
+        Intent i = new Intent(Intent.ACTION_VIEW,uri);
+        startActivity(i);
+
+    }
+
+    public void clear(View v) {
+        brandText.getEditableText().clear();
+        modelText.getEditableText().clear();
+        virusText.getEditableText().clear();
+        damage1Text.getEditableText().clear();
+        damage2Text.getEditableText().clear();
+        damage3Text.getEditableText().clear();
     }
 }
