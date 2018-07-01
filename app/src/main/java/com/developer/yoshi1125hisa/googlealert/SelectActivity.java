@@ -16,6 +16,7 @@ public class SelectActivity extends AppCompatActivity {
     TextView damage1Text;
     TextView damage2Text;
     TextView damage3Text;
+    TextView appText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +45,7 @@ public class SelectActivity extends AppCompatActivity {
         String damage2 = damage2Text.getText().toString();
         String damage3 = damage3Text.getText().toString();
 
-        String createUrl = "https://yoshi1125hisa.github.io/AdGeneratorWeb-v0.1.0/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3;
+        String createUrl = "https://yoshi1125hisa.github.io/AdGeneratorWeb/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3;
 
 
 
