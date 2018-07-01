@@ -47,7 +47,7 @@ public class SelectActivity extends AppCompatActivity {
         String damage3 = damage3Text.getText().toString();
         String app = appText.getText().toString();
 
-        String createUrl = "https://yoshi1125hisa.github.io/AdGeneratorWeb/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3+"&app="+app;
+        String createUrl = "https://yoshi1125hisa.github.io/AdGenerator/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3+"&app="+app;
 
 
 

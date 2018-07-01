@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".WebActivity" />
-        <activity android:name=".QrActivity"></activity>
+        <activity android:name=".QrActivity"/>
     </application>
 
 </manifest>
