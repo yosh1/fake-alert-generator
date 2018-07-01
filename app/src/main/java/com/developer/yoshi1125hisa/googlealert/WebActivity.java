@@ -76,6 +76,13 @@ public class WebActivity extends AppCompatActivity {
 
 
     }
+    public void qr(View v){
+        Intent intent = new Intent(this,QrActivity.class);
+        intent.putExtra("URL",getUrl);
+        startActivity(intent);
+    }
+
+
 
 
 
