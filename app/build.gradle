@@ -6,8 +6,8 @@ android {
         applicationId "com.developer.yoshi1125hisa.googlealert"
         minSdkVersion 22
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.0"
+        versionCode 4
+        versionName "0.1.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
