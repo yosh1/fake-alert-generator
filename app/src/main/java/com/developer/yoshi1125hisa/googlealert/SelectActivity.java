@@ -29,6 +29,7 @@ public class SelectActivity extends AppCompatActivity {
         damage1Text = findViewById(R.id.damage1);
         damage2Text = findViewById(R.id.damage2);
         damage3Text = findViewById(R.id.damage3);
+        appText = findViewById(R.id.app);
 
         //ブランド名(brand)、端末名(model)、ウイルスの数(virus)、破損するもの(damage1~3)
 
@@ -44,8 +45,9 @@ public class SelectActivity extends AppCompatActivity {
         String damage1 = damage1Text.getText().toString();
         String damage2 = damage2Text.getText().toString();
         String damage3 = damage3Text.getText().toString();
+        String app = appText.getText().toString();
 
-        String createUrl = "https://yoshi1125hisa.github.io/AdGeneratorWeb/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3;
+        String createUrl = "https://yoshi1125hisa.github.io/AdGeneratorWeb/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3+"&app="+app;
 
 
 
@@ -73,5 +75,6 @@ public class SelectActivity extends AppCompatActivity {
         damage1Text.getEditableText().clear();
         damage2Text.getEditableText().clear();
         damage3Text.getEditableText().clear();
+        appText.getEditableText().clear();
     }
 }
