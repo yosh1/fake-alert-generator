@@ -2,12 +2,12 @@
 
    
         if(getURLParameter('brand') === ''){
-           var brand = '野獣先輩';
+           var brand = 'default_message';
         }else{
            var brand = getURLParameter(decodeURIComponent('brand'));
         }
         if(getURLParameter('model') === ''){
-           var model = 'YJSNPI';
+           var model = 'default_message';
         }else{
            var model = getURLParameter(decodeURIComponent('model'));
         }        
@@ -17,22 +17,22 @@
            var virus = getURLParameter(decodeURIComponent('virus'));
         }
         if(getURLParameter('damage1') === ''){
-           var damage1 = '淫夢くん';
+           var damage1 = 'default_message';
         }else{
            var damage1 = getURLParameter(decodeURIComponent('damage1'));
         }
         if(getURLParameter('damage2') === ''){
-           var damage2 = '観葉植物くん';
+           var damage2 = 'default_message';
         }else{
            var damage2 = getURLParameter(decodeURIComponent('damage2'));
         }        
 　　　　　if(getURLParameter('damage3') === ''){
-           var damage3 = '野獣邸';
+           var damage3 = 'default_message';
         }else{
            var damage3 = getURLParameter(decodeURIComponent('damage3'));
         }
 　　　　　if(getURLParameter('app') === ''){
-           var app = 'COAT公式';
+           var app = 'default_message';
         }else{
            var app = getURLParameter(decodeURIComponent('app'));
         }
