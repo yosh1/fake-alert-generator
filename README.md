@@ -10,7 +10,7 @@ This is an Android application and WEB site that can create warnings from fake G
 ## Description
 
 ## Demo
-<img src="https://lh3.googleusercontent.com/yzMkis7hWwh6NjRrswDNgiXUAJnHxO4T4JT0NzsjjKWRJ3Cd3J4Y0p-l4z76_sJn0Ks" style="width:49%;"><img src="https://lh3.googleusercontent.com/djgm9qTohzE7-qRGNngRr90HXFXBz6vTUW7CccTrtTGvKQCztgV4-oRrE8MbkCFRyQ" style="width:49%;">
+<img src="https://lh3.googleusercontent.com/yzMkis7hWwh6NjRrswDNgiXUAJnHxO4T4JT0NzsjjKWRJ3Cd3J4Y0p-l4z76_sJn0Ks" style="width:49vw;">  <img src="https://lh3.googleusercontent.com/djgm9qTohzE7-qRGNngRr90HXFXBz6vTUW7CccTrtTGvKQCztgV4-oRrE8MbkCFRyQ" style="width:49vw;">
 
 ## Requirement
 
