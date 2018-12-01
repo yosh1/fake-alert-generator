@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">偽広告ジェネレーター</string>
+    <string name="qr">QRコードで共有</string>
+    <string name="url">URLをコピー</string>
+    <string name="qr_image">QR_IMAGE</string>
+    <string name="description">フォームに好きな文字を入れて[偽広告を作成]を押すと\n偽広告画面に移動します。</string>
+    <string name="brand">ブランド名</string>
+    <string name="device">端末名</string>
+    <string name="virus">ウイルスの数</string>
+    <string name="break1">破損するもの1</string>
+    <string name="break2">破損するもの2</string>
+    <string name="break3">破損するもの3</string>
+    <string name="app">インストールさせるアプリ</string>
+    <string name="reset">リセット</string>
+    <string name="create">偽広告を作成</string>
 </resources>
