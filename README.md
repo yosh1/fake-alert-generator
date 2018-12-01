@@ -18,7 +18,8 @@ This is an Android application and WEB site that can create warnings from fake G
 
 ## Install
 [GooglePlay](https://play.google.com/store/apps/details?id=com.developer.yoshi1125hisa.googlealert)
-[Browser]()
+
+[Browser](https://yoshi1125hisa.github.io/ad-generator/URLform.html)
 
 ## Contribution
 
