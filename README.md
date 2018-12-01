@@ -7,9 +7,9 @@
 [![HTML&CSS language](https://img.shields.io/badge/language-HTML/CSS-green.svg?style=flat)](LANGUAGE)
 [![Android Version](https://img.shields.io/badge/android-5.1~-orange.svg?style=flat)](ANDROID_VERSION)
 
-This is an Android application and WEB site that can create warnings from fake Google. JavaScript, HTML, CSS files are for the web, and others are for Android applications.
-
 ## Description
+
+This is an Android application and WEB site that can create warnings from fake Google. JavaScript, HTML, CSS files are for the web, and others are for Android applications.
 
 ## Demo
 <img src="https://lh3.googleusercontent.com/yzMkis7hWwh6NjRrswDNgiXUAJnHxO4T4JT0NzsjjKWRJ3Cd3J4Y0p-l4z76_sJn0Ks" width=49%>  <img src="https://lh3.googleusercontent.com/djgm9qTohzE7-qRGNngRr90HXFXBz6vTUW7CccTrtTGvKQCztgV4-oRrE8MbkCFRyQ" width=49%>
