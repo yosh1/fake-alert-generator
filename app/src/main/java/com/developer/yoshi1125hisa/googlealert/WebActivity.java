@@ -17,8 +17,7 @@ import android.widget.Toast;
 
 public class WebActivity extends AppCompatActivity {
 
-
-    String getUrl;
+    public static String getUrl;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -26,17 +25,17 @@ public class WebActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-
-
-
         Intent intent = this.getIntent();
         getUrl = intent.getStringExtra("URL");
         //レイアウトで指定したWebViewのIDを指定する。
-        WebView  webView = (WebView)findViewById(R.id.webView);
+        WebView  webView = findViewById(R.id.webView);
 
         //リンクをタップしたときに標準ブラウザを起動させない
         webView.setWebViewClient(new WebViewClient());
 
+
+        // Loading
+        webView.setWebViewClient(new ProgressDialgWebViewClient(this, "Loading ..."));  // 追加
 
         //jacascriptを許可する
         webView.getSettings().setJavaScriptEnabled(true);
@@ -59,23 +58,20 @@ public class WebActivity extends AppCompatActivity {
         //クリップボードに格納するItemを作成
         ClipData.Item item = new ClipData.Item(getUrl);
 
-//MIMETYPEの作成
+        //MIMETYPEの作成
         String[] mimeType = new String[1];
         mimeType[0] = ClipDescription.MIMETYPE_TEXT_URILIST;
 
-//クリップボードに格納するClipDataオブジェクトの作成
+        //クリップボードに格納するClipDataオブジェクトの作成
         ClipData cd = new ClipData(new ClipDescription("text_data", mimeType), item);
 
-//クリップボードにデータを格納
+        //クリップボードにデータを格納
         ClipboardManager cm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
         cm.setPrimaryClip(cd);
 
-
         Toast.makeText(this, "クリップボードにコピーしました。", Toast.LENGTH_SHORT).show();
-
-
-
     }
+
     public void qr(View v){
         Intent intent = new Intent(this,QrActivity.class);
         intent.putExtra("URL",getUrl);
