@@ -2,10 +2,9 @@
 
 [![App Version](https://img.shields.io/badge/version-1.2.1-orange.svg?style=flat)](APP_VERSION)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![Java language](https://img.shields.io/badge/language-Java-green.svg?style=flat)](LANGUAGE)
-[![JavaScript language](https://img.shields.io/badge/language-JavaScript-green.svg?style=flat)](LANGUAGE)
-[![HTML&CSS language](https://img.shields.io/badge/language-HTML/CSS-green.svg?style=flat)](LANGUAGE)
+[![Language](https://img.shields.io/badge/language-Java/JavaScript/HTML/CSS-green.svg?style=flat)](LANGUAGE)
 [![Android Version](https://img.shields.io/badge/android-5.1~-orange.svg?style=flat)](ANDROID_VERSION)
+[![Install](https://img.shields.io/badge/install-100+-red.svg?style=flat)](INSTALL)
 
 ## Description
 This is an Android application and WEB site that can create fake warnings from Google.
