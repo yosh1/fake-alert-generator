@@ -1,6 +1,6 @@
 # Google fake alart generator
 
-[![App Version](https://img.shields.io/badge/version-0.1.7-orange.svg?style=flat)](APP_VERSION)
+[![App Version](https://img.shields.io/badge/version-1.2.1-orange.svg?style=flat)](APP_VERSION)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Java language](https://img.shields.io/badge/language-Java-green.svg?style=flat)](LANGUAGE)
 [![JavaScript language](https://img.shields.io/badge/language-JavaScript-green.svg?style=flat)](LANGUAGE)
