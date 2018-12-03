@@ -1,4 +1,4 @@
-# Google fake alart generator
+# 偽渓谷ジェネレーター - Google fake alart generator
 
 [![App Version](https://img.shields.io/badge/version-1.2.1-orange.svg?style=flat)](APP_VERSION)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
