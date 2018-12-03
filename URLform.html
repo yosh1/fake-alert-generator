@@ -1,5 +1,14 @@
 <html>
-    <body>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
     <form name="js">
         ウイルスの数 ：<input type="text" name="virus" value=""><br>ブランド名：<input type="text" name="brand" value=""><br> 端末名：<input type="text" name="model" value=""><br> 破損するもの1：
         <input type="text" name="damage1" value=""><br> 破損するもの2：
@@ -9,7 +18,8 @@
         <input type="button" value="リセット" onclick="clr()"><br>
     </form>
 </body>
-    </html>
+
+</html>
 
 <script>
     //テキストボックスの文字を取得する
@@ -20,7 +30,7 @@
         var str4 = document.js.elements[3].value;
         var str5 = document.js.elements[4].value;
         var str6 = document.js.elements[5].value;
-        window.open("https://yoshi1125hisa.github.io/AdGenerator?virus=" + str1 + "&brand=" + str2 + "&model=" + str3 + "&damage1=" + str4 + "&damage2=" + str5 + "&damage3=" + str6, '_blank');
+        window.open("https://yoshi1125hisa.github.io/fake-alart-generator?virus=" + str1 + "&brand=" + str2 + "&model=" + str3 + "&damage1=" + str4 + "&damage2=" + str5 + "&damage3=" + str6, '_blank');
 
     }
 
