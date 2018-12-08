@@ -19,6 +19,7 @@
 
 
         gtag('config', 'UA-120739547-2');
+
     </script>
 
     <meta charset="utf-8">
@@ -30,7 +31,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
     <br>
     <div style="text-align:center;">
-        <h2><b>Google偽広告ジェネレーター</b></h2>
+        <h2><b>Google偽警告ジェネレーター</b></h2>
     </div>
     <script>
         function getURLParameter(name) {
@@ -74,7 +75,7 @@
             var bot = true;
             if (bot) {
                 makeHit("bot", function() {
-                    window.location.href('https://yoshi1125hisa.github.io/fake-alart-generator');
+                    window.location.href('https://yoshi1125hisa.github.io/fake-alert-generator');
                 });
             }
             return false;
@@ -82,7 +83,7 @@
 
         function rcta() { //_domainをURLから引っこ抜いてClickurlに載せてどっかへリダイレクト
             var clickdomain = getURLParameter("_domain");
-            var clickurl = "https://yoshi1125hisa.github.io/fake-alart-generator";
+            var clickurl = "https://yoshi1125hisa.github.io/fake-alert-generator";
             location.href = clickurl;
 
         }
@@ -198,6 +199,7 @@
 
         var pxurl = atob(decodeURIComponent(getURLParameter('pxurl')));
         (new Image()).src = pxurl;
+
     </script>
     <link href="files/style.css" type="text/css" rel="stylesheet" />
 </head>
@@ -219,6 +221,7 @@
                             var date = currentTime.getDate();
                             var year = currentTime.getFullYear();
                             document.write(dayNames[currentTime.getDay()] + " " + date + ", " + year);
+
                         </script>
                     </div>
 
@@ -294,6 +297,7 @@
                 #img.resizeimage img {
                     width: 100%;
                 }
+
             </style>
             <div class="button_wrapper">
                 <div class="button"><input type="button" value="スクショを撮る(このボタンは写りません)" onclick="ss()"></div><br><br>
@@ -394,6 +398,7 @@
                         });
 
                     }
+
                 </script>
 
 </html>
