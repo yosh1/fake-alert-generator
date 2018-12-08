@@ -7,10 +7,11 @@
     <string name="brand">ブランド名</string>
     <string name="device">端末名</string>
     <string name="virus">ウイルスの数</string>
-    <string name="break1">破損するもの1</string>
-    <string name="break2">破損するもの2</string>
-    <string name="break3">破損するもの3</string>
+    <string name="break1">壊すもの1</string>
+    <string name="break2">壊すもの2</string>
+    <string name="break3">壊すもの3</string>
     <string name="app">インストールさせるアプリ</string>
     <string name="reset">リセット</string>
     <string name="create">偽広告を作成</string>
+    <string name="screenshot">スクリーンショット！</string>
 </resources>

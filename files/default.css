@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+ file name  :  default.css
+ style info :  リセット及びbody初期設定 (このスタイルシートは基本的に変更しない)
+=================================================================== */
+
+/*--- reset */
+
+html {
+    overflow-y: scroll;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+q:before,
+q:after {
+    content: "";
+}
+
+object,
+embed {
+    vertical-align: top;
+}
+
+hr,
+legend {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+img,
+abbr,
+acronym,
+fieldset {
+    border: 0;
+}
+
+li {
+    list-style-type: none;
+}

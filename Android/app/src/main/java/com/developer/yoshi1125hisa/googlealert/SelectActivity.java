@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 
 public class SelectActivity extends AppCompatActivity {
     TextView brandText;
@@ -22,6 +24,14 @@ public class SelectActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select);
+
+        // Get instance.
+        FirebaseAnalytics fba = FirebaseAnalytics.getInstance(this);
+
+        // Send event log.
+        Bundle bundle = new Bundle();
+        bundle.putString("fake_alert_generator", "SelectActivity");
+        fba.logEvent("app_started", bundle);
 
         brandText = findViewById(R.id.brand);
         modelText = findViewById(R.id.model);
