@@ -1,4 +1,4 @@
-# 偽警告ジェネレーター  -  Google fake alart generator
+# 偽警告ジェネレーター  -  Google fake alert generator
 
 [![App Version](https://img.shields.io/badge/version-1.2.1-orange.svg?style=flat)](APP_VERSION)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
@@ -17,7 +17,7 @@ JavaScript, HTML, CSS files are for the web, and others are for Android applicat
 ## Install
 [GooglePlay](https://play.google.com/store/apps/details?id=com.developer.yoshi1125hisa.googlealert)
 
-[Browser](https://yoshi1125hisa.github.io/fake-alart-generator/URLform.html)
+[Browser](https://yoshi1125hisa.github.io/fake-alert-generator/URLform.html)
 
 ## Contribution
 Please Fork freely and send PR.
