@@ -7,7 +7,7 @@ function tbox1() {
     var str5 = document.js.elements[4].value;
     var str6 = document.js.elements[5].value;
     var str7 = document.js.elements[6].value;
-    window.open("https://yoshi1125hisa.github.io/AdGeneratorWeb-v0.1.0?virus=" + str1 + "&brand=" + str2 + "&model=" + str3 + "&damage1=" + str4 + "&damage2=" + str5 + "&damage3=" + str6 + "&app=" + str7, '_blank');
+    window.open("https://yoshi1125hisa.github.io/fake-alert-generator?virus=" + str1 + "&brand=" + str2 + "&model=" + str3 + "&damage1=" + str4 + "&damage2=" + str5 + "&damage3=" + str6 + "&app=" + str7, '_blank');
 
 }
 
