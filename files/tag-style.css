@@ -1,0 +1,93 @@
+
+a,
+a:visited,
+a:active {
+    color: #228EC9;
+    text-decoration: none;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    padding: 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.ui-autocomplete > li {
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+}
+
+.ui-autocomplete > a:hover {
+    text-decoration: none;
+}
+
+.ui-autocomplete > li.ui-state-focus {
+    background-color: #f6f6f6;
+    display: block;
+    text-decoration: none;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+    text-decoration: none;
+}
+
+.ui-menu .ui-menu-item {
+    padding: 5px 20px;
+    color: #333;
+}
+
+.ui-menu .ui-menu-item a {
+    color: #333;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ui-state-focus {
+    background: #f6f6f6;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+#tag_frame {
+    width: calc(96% - 2px);
+    margin-left: 2%;
+    border: solid 1px #e9e9e9;
+    background-color: white;
+    border-radius: 4px;
+
+}
+
+#tag_input {
+    border: 0px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    height: 45px;
+    width:55%;
+    padding-left: 3%;
+}
+
+#tags {
+    display: none;
+}
+
+.tag_list {
+    float: left;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-top: 9px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.remove {
+    cursor: pointer;
+}

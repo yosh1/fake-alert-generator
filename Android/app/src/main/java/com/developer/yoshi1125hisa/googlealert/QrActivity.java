@@ -6,11 +6,18 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.AndroidRuntimeException;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class QrActivity extends AppCompatActivity {
 
@@ -18,6 +25,14 @@ public class QrActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qr);
+
+        // Get instance.
+        FirebaseAnalytics fba = FirebaseAnalytics.getInstance(this);
+
+        // Send event log.
+        Bundle bundle = new Bundle();
+        bundle.putString("fake_alert_generator", "QrActivity");
+        fba.logEvent("app_started", bundle);
 
         Intent intent = this.getIntent();
         String getUrl = intent.getStringExtra("URL");
