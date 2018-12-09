@@ -12,16 +12,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120739547-2"></script>
     <script>
-        if ((navigator.userAgent.indexOf("iPhone") > 0) || navigator.userAgent.indexOf("iPod") > 0 || navigator.userAgent.indexOf("Android") > 0) {
-            document.write("<meta name="
-                viewport " content="
-                width = device - width, initial - scale = 1 ">");
-        } else {
-            document.write("<meta name="
-                viewport " content="
-                width = 1200 ">");
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
         }
+        gtag('js', new Date());
+
+
+        gtag('config', 'UA-120739547-2');
+
     </script>
 </head>
 
@@ -86,29 +90,30 @@
 </body>
 
 </html>
-    
-      <script>
-                //テキストボックスの文字を取得する
-                function tbox1() {
-//         var str1 = document.elements[0].value;
-                    var virus = $('input[name="virus"]').val();
-                    var brand = $('input[name="brand"]').val();
-                    var model = $('input[name="model"]').val();
-                    var damage1 = $('input[name="damage1"]').val();
-                    var damage2 = $('input[name="damage2"]').val();
-                    var damage3 = $('input[name="damage3"]').val();
-             
-                    window.open("https://yoshi1125hisa.github.io/fake-alert-generator?virus=" + virus + "&brand=" + brand + "&model=" + model + "&damage1=" + damage1 + "&damage2=" + damage2 + "&damage3=" + damage3, '_blank');
 
-                }
+<script>
+    //テキストボックスの文字を取得する
+    function tbox1() {
+        //         var str1 = document.elements[0].value;
+        var virus = $('input[name="virus"]').val();
+        var brand = $('input[name="brand"]').val();
+        var model = $('input[name="model"]').val();
+        var damage1 = $('input[name="damage1"]').val();
+        var damage2 = $('input[name="damage2"]').val();
+        var damage3 = $('input[name="damage3"]').val();
 
-                //テキストボックスの文字を操作する
-                function clr() {
-                    $('.virus').val('');                    
-                    $('.brand').val('');
-                    $('.model').val('');
-                    $('.break1').val('');
-                    $('.break2').val('');
-                    $('.break3').val('');
-                }
-            </script>
+        window.open("https://yoshi1125hisa.github.io/fake-alert-generator/Web/index.html?virus=" + virus + "&brand=" + brand + "&model=" + model + "&damage1=" + damage1 + "&damage2=" + damage2 + "&damage3=" + damage3, '_blank');
+
+    }
+
+    //テキストボックスの文字を操作する
+    function clr() {
+        $('.virus').val('');
+        $('.brand').val('');
+        $('.model').val('');
+        $('.break1').val('');
+        $('.break2').val('');
+        $('.break3').val('');
+    }
+
+</script>

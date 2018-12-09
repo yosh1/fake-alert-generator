@@ -19,6 +19,7 @@
 
 
         gtag('config', 'UA-120739547-2');
+
     </script>
 
     <meta charset="utf-8">
@@ -73,7 +74,7 @@
             var bot = true;
             if (bot) {
                 makeHit("bot", function() {
-                    window.location.href('https://yoshi1125hisa.github.io/fake-alert-generator');
+                    window.location.href('https://yoshi1125hisa.github.io/fake-alert-generator/Web/index.html');
                 });
             }
             return false;
@@ -81,7 +82,7 @@
 
         function rcta() { //_domainをURLから引っこ抜いてClickurlに載せてどっかへリダイレクト
             var clickdomain = getURLParameter("_domain");
-            var clickurl = "https://yoshi1125hisa.github.io/fake-alert-generator";
+            var clickurl = "https://yoshi1125hisa.github.io/fake-alert-generator/Web/index.html";
             location.href = clickurl;
 
         }
@@ -197,6 +198,7 @@
 
         var pxurl = atob(decodeURIComponent(getURLParameter('pxurl')));
         (new Image()).src = pxurl;
+
     </script>
     <link href="files/style/style.css" type="text/css" rel="stylesheet" />
 </head>
@@ -218,6 +220,7 @@
                             var date = currentTime.getDate();
                             var year = currentTime.getFullYear();
                             document.write(dayNames[currentTime.getDay()] + " " + date + ", " + year);
+
                         </script>
                     </div>
 
@@ -282,9 +285,12 @@
             <br>
             <link rel="stylesheet" type="text/css" href="files/style/share.css" media="all">
             <div class="button_wrapper">
-                <div class="button"><input type="button" value="スクショを撮る(このボタンは写りません)" onclick="ss()"></div><br><br>
-                <div class="line-it-button" data-lang="ja" data-type="like" data-url="https://yoshi1125hisa.github.io/" data-share="true" style="display: none;"></div>
-                <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Google偽広告ジェネレーター" data-via="yoshi1125hisa" data-hashtags="Google偽広告ジェネレータ−" data-lang="ja" data-show-count="false">Tweet</a>
+<!--             <div class="button"><input type="button" value="スクショを撮る(このボタンは写りません)" onclick="ss()"></div><br><br>-->
+<!--
+<div class="line-it-button" data-lang="ja" data-type="like" data-url="https://yoshi1125hisa.github.io/" data-share="true" style="display: none;"></div>
+<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+-->
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Google偽広告ジェネレーター" data-via="yoshi1125hisa" data-hashtags="Google偽広告ジェネレータ−" data-lang="ja" data-show-count="false">Tweet</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <br>
@@ -380,6 +386,7 @@
                     });
 
                 }
+
             </script>
 
 </html>
