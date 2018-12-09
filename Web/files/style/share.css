@@ -1,0 +1,11 @@
+   .button_wrapper {
+                    text-align: center;
+                }
+
+                #img.resizeimage {
+                    width: 80%;
+                }
+
+                #img.resizeimage img {
+                    width: 100%;
+                }

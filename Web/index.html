@@ -1,5 +1,5 @@
 <html>
-<title>Google偽広告ジェネレーター</title>
+
 <!--nobanner-->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -19,19 +19,17 @@
 
 
         gtag('config', 'UA-120739547-2');
-
     </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
     <meta name="referrer" content="no-referrer">
     <meta name="referrer" content="never">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <title></title>
+    <title>偽警告ジェネレーター</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
     <br>
     <div style="text-align:center;">
-        <h2><b>Google偽警告ジェネレーター</b></h2>
+        <h2><b>偽警告ジェネレーター</b></h2>
     </div>
     <script>
         function getURLParameter(name) {
@@ -199,9 +197,8 @@
 
         var pxurl = atob(decodeURIComponent(getURLParameter('pxurl')));
         (new Image()).src = pxurl;
-
     </script>
-    <link href="files/style.css" type="text/css" rel="stylesheet" />
+    <link href="files/style/style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body class="offline" style="font-family: Helvetica, sans-serif; font-size: 75%;">
@@ -213,7 +210,7 @@
         <div style="background-color : #FFFFFF">
             <div id="main-frame-error" class="interstitial-wrapper">
                 <div id="main-content">
-                    <img src="files/Google.png" overflow="visible" width="150" height="53">
+                    <img src="files/img/Google.png" overflow="visible" width="150" height="53">
                     <div id="today">
                         <script type="text/javascript">
                             var currentTime = new Date();
@@ -221,7 +218,6 @@
                             var date = currentTime.getDate();
                             var year = currentTime.getFullYear();
                             document.write(dayNames[currentTime.getDay()] + " " + date + ", " + year);
-
                         </script>
                     </div>
 
@@ -272,7 +268,7 @@
                         left: 17px;
                     }
                 </style>
-                <image overflow="visible" width="64" height="64" xlink:href="files/caution.png">
+                <image overflow="visible" width="64" height="64" xlink:href="files/img/caution.png">
                 </image>
             </svg>
                     <span id="eheader"></span>
@@ -284,21 +280,7 @@
                 </div>
             </div>
             <br>
-
-            <style>
-                .button_wrapper {
-                    text-align: center;
-                }
-
-                #img.resizeimage {
-                    width: 80%;
-                }
-
-                #img.resizeimage img {
-                    width: 100%;
-                }
-
-            </style>
+            <link rel="stylesheet" type="text/css" href="files/style/share.css" media="all">
             <div class="button_wrapper">
                 <div class="button"><input type="button" value="スクショを撮る(このボタンは写りません)" onclick="ss()"></div><br><br>
                 <div class="line-it-button" data-lang="ja" data-type="like" data-url="https://yoshi1125hisa.github.io/" data-share="true" style="display: none;"></div>
@@ -306,99 +288,98 @@
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <br>
-            <h3><b><div id="preview" style="text-align:center;"></div></h3></b>
-                <p style="text-align:center;">
-                    <div id="img"><img src="" id="result"></div>
-                </p>
-                <p style="text-align:center;"><b><a href="" id="dl" download="screenshot_LieGoogle.png"></a></b><br></p>
+            <h3><b><div id="preview" style="text-align:center;"></div></b></h3>
+            <p style="text-align:center;">
+                <div id="img"><img src="" id="result"></div>
+            </p>
+            <p style="text-align:center;"><b><a href="" id="dl" download="screenshot_LieGoogle.png"></a></b><br></p>
 
-                <script type="text/javascript">
-                    function loadScript(url, callback) {
-                        var body = document.getElementsByTagName('body')[0];
-                        var script = document.createElement('script');
-                        script.type = 'text/javascript';
-                        script.src = url;
-                        script.defer = true;
-                        script.async = false;
-                        script.onerror = downGradeScript(callback);
-                        script.onload = callback;
-                        body.appendChild(script);
+            <script type="text/javascript">
+                function loadScript(url, callback) {
+                    var body = document.getElementsByTagName('body')[0];
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.src = url;
+                    script.defer = true;
+                    script.async = false;
+                    script.onerror = downGradeScript(callback);
+                    script.onload = callback;
+                    body.appendChild(script);
+                }
+
+                function downGradeScript(cb) {
+                    if (getURLParameter('brand') === '') {
+                        var brand = 'リア充';
+                    } else {
+                        var brand = getURLParameter(decodeURIComponent('brand'));
                     }
-
-                    function downGradeScript(cb) {
-                        if (getURLParameter('brand') === '') {
-                            var brand = 'リア充';
-                        } else {
-                            var brand = getURLParameter(decodeURIComponent('brand'));
-                        }
-                        if (getURLParameter('model') === '') {
-                            var model = '彼氏';
-                        } else {
-                            var model = getURLParameter(decodeURIComponent('model'));
-                        }
-                        if (getURLParameter('virus') === '') {
-                            var virus = '∞';
-                        } else {
-                            var virus = getURLParameter(decodeURIComponent('virus'));
-                        }
-                        if (getURLParameter('damage1') === '') {
-                            var damage1 = '彼女';
-                        } else {
-                            var damage1 = getURLParameter(decodeURIComponent('damage1'));
-                        }
-                        if (getURLParameter('damage2') === '') {
-                            var damage2 = '筋肉';
-                        } else {
-                            var damage2 = getURLParameter(decodeURIComponent('damage2'));
-                        }
-                        if (getURLParameter('damage3') === '') {
-                            var damage3 = '財布';
-                        } else {
-                            var damage3 = getURLParameter(decodeURIComponent('damage3'));
-                        }
-                        if (getURLParameter('app') === '') {
-                            var app = '日本大学公式';
-                        } else {
-                            var app = getURLParameter(decodeURIComponent('app'));
-                        }
-                        return function() {
-                            newLang = "ja";
-                            langs["ja"] = {
-                                pheader: brand + ' ' + model + ' でウイルスが<span id="blink">(' + virus + ')</span>個検出されました',
-                                eheader: 'システム警告!',
-                                subhead: 'お使いの ' + brand + ' ' + model + ' のウイルス感染が検出されました。対応策をとらないと、' + damage1 + '、' + damage2 + '、および' + damage3 + 'がまもなく破損します。',
-                                body2: 'ウイルスの除去方法:',
-                                body3: 'ステップ1: 下のボタンをタップしてGoogle Playstoreに進み、推奨されている' + app + 'アプリを無料でインストールします',
-                                body4: 'ステップ2: アプリを実行し、全てのウイルスを除去します',
-                                cta: 'ウイルスを今すぐ除去',
-                                exitpop: brand + ' ' + model + ' がウイルスに感染しているので、早急の対応が必要です。<br><br>' + brand + ' ' + model + ' を修復するために、続行して指示に従ってください。このウィンドウは閉じないでください。<br><br>**閉じる場合、責任は自己負担となります**',
-                                entry: '警告!\n\n' + brand + ' ' + model + ' がウイルスに感染しているので、早急の対応が必要です。\n\n' + brand + ' ' + model + ' を修復するために、続行して指示に従ってください。このウィンドウは閉じないでください。\n\n**閉じる場合、責任は自己負担となります**',
-                            };
-                            cb();
-                        }
+                    if (getURLParameter('model') === '') {
+                        var model = '彼氏';
+                    } else {
+                        var model = getURLParameter(decodeURIComponent('model'));
                     }
-
-
-
-                    loadScript("js/" + newLang + "-lang.js?1", translator);
-
-                    function ss() {
-
-                        html2canvas(document.getElementById("target"), {
-                            onrendered: function(canvas) {
-                                //imgタグのsrcの中に、html2canvasがレンダリングした画像を指定する。
-                                imgData = canvas.toDataURL();
-                                document.getElementById("result").src = imgData;
-                                document.getElementById("dl").href = imgData;
-                                var elem = document.getElementById("dl");
-                                elem.textContent = "スクリーンショットをダウンロード";
-                                var elem2 = document.getElementById("preview");
-                                elem2.textContent = "スクリーンショットのプレビュー";
-                            }
-                        });
-
+                    if (getURLParameter('virus') === '') {
+                        var virus = '∞';
+                    } else {
+                        var virus = getURLParameter(decodeURIComponent('virus'));
                     }
+                    if (getURLParameter('damage1') === '') {
+                        var damage1 = '彼女';
+                    } else {
+                        var damage1 = getURLParameter(decodeURIComponent('damage1'));
+                    }
+                    if (getURLParameter('damage2') === '') {
+                        var damage2 = '筋肉';
+                    } else {
+                        var damage2 = getURLParameter(decodeURIComponent('damage2'));
+                    }
+                    if (getURLParameter('damage3') === '') {
+                        var damage3 = '財布';
+                    } else {
+                        var damage3 = getURLParameter(decodeURIComponent('damage3'));
+                    }
+                    if (getURLParameter('app') === '') {
+                        var app = '日本大学公式';
+                    } else {
+                        var app = getURLParameter(decodeURIComponent('app'));
+                    }
+                    return function() {
+                        newLang = "ja";
+                        langs["ja"] = {
+                            pheader: brand + ' ' + model + ' でウイルスが<span id="blink">(' + virus + ')</span>個検出されました',
+                            eheader: 'システム警告!',
+                            subhead: 'お使いの ' + brand + ' ' + model + ' のウイルス感染が検出されました。対応策をとらないと、' + damage1 + '、' + damage2 + '、および' + damage3 + 'がまもなく破損します。',
+                            body2: 'ウイルスの除去方法:',
+                            body3: 'ステップ1: 下のボタンをタップしてGoogle Playstoreに進み、推奨されている' + app + 'アプリを無料でインストールします',
+                            body4: 'ステップ2: アプリを実行し、全てのウイルスを除去します',
+                            cta: 'ウイルスを今すぐ除去',
+                            exitpop: brand + ' ' + model + ' がウイルスに感染しているので、早急の対応が必要です。<br><br>' + brand + ' ' + model + ' を修復するために、続行して指示に従ってください。このウィンドウは閉じないでください。<br><br>**閉じる場合、責任は自己負担となります**',
+                            entry: '警告!\n\n' + brand + ' ' + model + ' がウイルスに感染しているので、早急の対応が必要です。\n\n' + brand + ' ' + model + ' を修復するために、続行して指示に従ってください。このウィンドウは閉じないでください。\n\n**閉じる場合、責任は自己負担となります**',
+                        };
+                        cb();
+                    }
+                }
 
-                </script>
+
+
+                loadScript("js/" + newLang + "-lang.js?1", translator);
+
+                function ss() {
+
+                    html2canvas(document.getElementById("target"), {
+                        onrendered: function(canvas) {
+                            //imgタグのsrcの中に、html2canvasがレンダリングした画像を指定する。
+                            imgData = canvas.toDataURL();
+                            document.getElementById("result").src = imgData;
+                            document.getElementById("dl").href = imgData;
+                            var elem = document.getElementById("dl");
+                            elem.textContent = "スクリーンショットをダウンロード";
+                            var elem2 = document.getElementById("preview");
+                            elem2.textContent = "スクリーンショットのプレビュー";
+                        }
+                    });
+
+                }
+            </script>
 
 </html>
