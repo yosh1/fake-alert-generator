@@ -6,10 +6,10 @@ import android.graphics.Bitmap;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class ProgressDialgWebViewClient extends WebViewClient {
+class ProgressDialogWebViewClient extends WebViewClient {
     private ProgressDialog progressDialog;
 
-    public ProgressDialgWebViewClient(Context context, String message){
+    public ProgressDialogWebViewClient(Context context, String message){
         super();
 
         progressDialog = new ProgressDialog(context);
