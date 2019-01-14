@@ -1,6 +1,7 @@
 # 偽警告ジェネレーター  -  Google fake alert generator
 
-[![App Version](https://img.shields.io/badge/version-1.2.1-orange.svg?style=flat)](APP_VERSION)
+[![App Version](https://img.shields.io/badge/version-1.2.3-orange.svg?style=flat)](APP_VERSION)
+[![Last Update](https://img.shields.io/badge/LastUpdate-2019/01/14-yellow.svg?style=flat)](LAST_UPDATE)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Language](https://img.shields.io/badge/language-Java/JavaScript/HTML/CSS-green.svg?style=flat)](LANGUAGE)
 [![Android Version](https://img.shields.io/badge/android-5.1~-orange.svg?style=flat)](ANDROID_VERSION)
