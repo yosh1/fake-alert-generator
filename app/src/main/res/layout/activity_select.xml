@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/description"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/brand"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/device"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/virus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/virus"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/damage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/break1"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/damage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/break2"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/damage3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/break3"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/app"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:onClick="clear"
+                android:text="@string/reset"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/generate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:onClick="generate"
+                android:text="@string/create" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

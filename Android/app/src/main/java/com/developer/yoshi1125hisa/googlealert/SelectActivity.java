@@ -41,10 +41,7 @@ public class SelectActivity extends AppCompatActivity {
         damage3Text = findViewById(R.id.damage3);
         appText = findViewById(R.id.app);
 
-        //ブランド名(brand)、端末名(model)、ウイルスの数(virus)、破損するもの(damage1~3)
-
-        //http://www.nambuplace.tk/LieGoogle/?virus=(ウイルスの数)&brand=(ブランド名)&model=(機種名)&damage1=(破損するもの1)&damage2=(破損するもの2)&damage3=(破損するもの3)
-    }
+        }
 
     public void generate(View v){
 
@@ -57,7 +54,7 @@ public class SelectActivity extends AppCompatActivity {
         String damage3 = damage3Text.getText().toString();
         String app = appText.getText().toString();
 
-        String createUrl = "https://yoshi1125hisa.github.io/fake-alert-generator/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3+"&app="+app;
+        String createUrl = "https://yoshi1125hisa.github.io/fake-alert-generator-web/?virus="+virus+"&brand="+brand+"&model="+model+"&damage1="+damage1+"&damage2="+damage2+"&damage3="+damage3+"&app="+app;
 
 
 

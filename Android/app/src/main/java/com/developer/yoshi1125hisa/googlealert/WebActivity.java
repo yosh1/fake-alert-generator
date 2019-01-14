@@ -39,7 +39,7 @@ public class WebActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
 
         // Loading
-        webView.setWebViewClient(new ProgressDialgWebViewClient(this, "Loading ..."));  // 追加
+        webView.setWebViewClient(new ProgressDialogWebViewClient(this, "Loading ..."));  // 追加
 
         //jacascriptを許可する
         webView.getSettings().setJavaScriptEnabled(true);
