@@ -18,7 +18,7 @@ JavaScript, HTML, CSS files are for the web, and others are for Android applicat
 ## Install
 [GooglePlay](https://play.google.com/store/apps/details?id=com.developer.yoshi1125hisa.googlealert)
 
-[Browser](https://yoshi1125hisa.github.io/fake-alert-generator/URLform.html)
+[Browser](https://www.yoshi1125hisa.com/fake-alert-generator-web/form)
 
 ## Contribution
 Please Fork freely and send PR.
